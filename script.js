@@ -20,7 +20,7 @@ api.addEventListener("keydown", (event) => {
 
 
 async function fetchData(query1){
-    const url = `http://www.omdbapi.com/?s=${query1}&apikey=${api_key}`;
+    const url = `https://www.omdbapi.com/?s=${query1}&apikey=${api_key}`;
     try{
         const res = await fetch(url);
         const result = await res.json();

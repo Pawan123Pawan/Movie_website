@@ -63,8 +63,8 @@ header h1 {
   flex-wrap: wrap;
   position: absolute;
   align-items: center;
-  /* justify-content: space-evenly; */
-  gap: 15px;
+  justify-content: space-evenly;
+  /* gap: 15px; */
 }
 .movie-card {
   padding: 10px;
